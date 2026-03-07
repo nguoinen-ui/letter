@@ -1013,7 +1013,7 @@
 width:100%; height:100%; background:rgba(0,0,0,0.9);
 justify-content:center; align-items:center; z-index:9999;">
 
-    <img src="./image/anh1.jpg" style="width:400px; border-radius:15px;">
+    <img src="anh1.jpg" style="width:400px; border-radius:15px;">
 
 </div>
 
@@ -1152,13 +1152,13 @@ justify-content:center; align-items:center; z-index:9999;">
             clearInterval(timoutTextLetter);
             timoutTextLetter = setInterval(() => {
                 textCharLetter();
-            }, 150)
+            }, 70)
         }
 
         // chữ của thư bạn muốn gửi
         let indexTextContent = 0;
         let textLetterContent = document.querySelector('.contentLetter');
-        const textLetterP = "Chúc các bạn nữ của Z-Ignite (Z-X9) luôn tự tin, bản lĩnh và tỏa sáng trên con đường của mình. Mong rằng mỗi ước mơ, mỗi ý tưởng táo bạo sẽ trở thành động lực để các bạn cùng nhau xây dựng nên một con đường thành công, nơi những giấc mơ được thắp lửa và biến thành giá trị cho tương lai . ";
+        const textLetterP = "Chúc các bạn nữ của Z-X9 luôn tự tin, bản lĩnh và tỏa sáng trên con đường đã chọn. Mong rằng mỗi ước mơ, mỗi ý tưởng táo bạo sẽ trở thành động lực để các bạn cùng nhau xây dựng nên một tương lai thành công";
         let timoutTextLetterContent;
         function textCharLetterContent() {
             if (indexTextContent < textLetterP.length) {
@@ -1177,7 +1177,7 @@ justify-content:center; align-items:center; z-index:9999;">
             clearInterval(timoutTextLetterContent);
             timoutTextLetterContent = setInterval(() => {
                 textCharLetterContent();
-            }, 100)
+            }, 50)
         }
         $(document).ready(function () {
             $('.valentines').mouseenter(function () {
